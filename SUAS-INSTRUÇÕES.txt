@@ -1,0 +1,34 @@
+﻿Nome do Projeto: kartRank
+Tipo do Projeto: Maven Project
+Versão do Java: Java 8
+Classe Principal: br.com.amil.kartrank.main.Main
+Path do Arquivo de Entrada:/kartRank/src/main/resources/kart.log
+
+								  
+Comentário 1 (Visão Geral): * PATH: /kartRank/src/main/java
+									* pacote br.com.amil.kartrank.repository -> Classes/Interfaces relacionadas a persistência de dados
+									* pacote br.com.amil.kartrank.service    -> Classes/Interfaces relacionadas a regras de negócio de dados
+									* pacote br.com.amil.kartrank.po         -> Classes entidades (PO = Persistence Object)
+									* pacote br.com.amil.kartrank.enums      -> Enum 
+									* pacote br.com.amil.kartrank.util       -> Classes utilitárias
+									
+							* PATH: /kartRank/src/main/resources	 
+							        * arquivo de entrada de dados (kart.log)
+
+							* PATH: /kartRank/src/test/java	 
+							        * pacote br.com.amil.kartrank.servicearquivo -> Classes de testes unitários
+                                    * pacote br.com.amil.kartrank.util           -> Classes utilitárias dod testes unitários									
+							
+Comentário 2 (Persistência de Dados): Utilizei as classes concretas do pacote do pacote br.com.amil.kartrank.repository para persistir os dados em memória, 
+                                      somente durante a execução da aplicação.
+									  Essas classes implementam suas respectivas interfaces, caso em algum momento o desenvolvedor tenha a necessidade de persistir os dados
+			                          em arquivo ou banco de dados, basta criar novas classes concretas, implementar as interfaces já existente e o 
+									  comportamento da aplicação continuará o mesmo.
+	
+
+Obs 1 (Formatação Arquivo log): O "arquivo modelo" de entrada de dados disponibilizado no GitHub apresenta alguns problemas de formatação. 
+								A partir dele criei o arquivo kart.log, adicionei ao meu projeto como descrito acima. 
+		                        Ao executar a classe Main, esse arquivo é processado automaticamente.
+								
+Obs 2 (Teste Unitário): Utilizei o JUnit para realizar os testes unitários, utilizei esse simples framework para auxiliar os teste. 
+                        Na solução de negócio não foi utilizado nenhum framework, apenas recursos da API padrão do Java.
