@@ -25,6 +25,10 @@ Path do Arquivo de Entrada:/kartRank/src/main/resources/kart.log
 	
 
 -> Obs 1 (Formatação Arquivo log): 
-	O "arquivo modelo" de entrada de dados disponibilizado no GitHub apresenta alguns problemas de formatação. A partir dele criei o arquivo kart.log, adicionei ao meu projeto como descrito acima. Ao executar a classe Main, esse arquivo é processado automaticamente.
+	O "arquivo modelo" de entrada de dados disponibilizado no GitHub apresenta alguns problemas de formatação. 
+	A partir dele criei o arquivo kart.log, adicionei ao meu projeto como descrito acima. 
+	Ao executar a classe Main, esse arquivo é processado automaticamente.
 								
--> Obs 2 (Teste Unitário): Utilizei o JUnit para realizar os testes unitários, utilizei esse simples framework para auxiliar os teste. Na solução de negócio não foi utilizado nenhum framework, apenas recursos da API padrão do Java.
+-> Obs 2 (Teste Unitário): 
+	Utilizei o JUnit para realizar os testes unitários, utilizei esse simples framework para auxiliar os teste. 
+	Na solução de negócio não foi utilizado nenhum framework, apenas recursos da API padrão do Java.
